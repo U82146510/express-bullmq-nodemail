@@ -3,8 +3,8 @@ import {logger} from '../middleware/logger';
 export const transporter = nodemailer.createTransport({
     service:'gmail',
     auth:{
-        user:'maxmadgb@gmail.com',
-        pass:'raduP@$$w0rd'
+        user:'',
+        pass:''
     }
 });
 
